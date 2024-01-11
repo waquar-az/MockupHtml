@@ -1,0 +1,560 @@
+*{
+            
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+	background:#CBD6E2;
+	padding-right:10px;
+	padding-left:10px;
+	padding-bottom:10px;
+    box-sizing: border-box;
+	
+}
+
+.row {
+    display: flex;
+	background:#FFFFFF;
+	border-radius: 25px;
+}
+
+.column {
+    height: 99vh; /* Set your desired height */
+    box-sizing: border-box;
+    border: 1px solid #ddd; /* Optional: Add border for better visualization */
+}
+.second{
+	background:#F2F2F2;
+}
+.imagg {
+	height:30px;
+	width:30px;
+	margin-left:auto;margin-right:auto;
+	margin-top:4px;
+	
+}
+.imagg img {
+            height: 100%; /* Adjust the height as needed */
+            width: 100%; /* Make sure the image fills the container */
+            border-radius: 50%; /* Optional: Add rounded corners */
+        }
+.icon{
+	display:flex;justify-content:center;align-items:center;
+}
+
+.searh-icon{
+	font-size:20px;color:#808080;
+	margin-top:11px;
+	
+}
+.home-icon{
+	font-size:25px;color:white;
+	margin-top:15px;
+	margin-left:10px;margin-right:10px;
+	padding:6px;
+	
+	border-radius:8px;
+	background-color: #8003b0;
+}
+.list-icon{
+	font-size:25px;color:#808080;
+	margin-top:15px;
+	
+}
+.news-icon{
+	font-size:25px;color:#808080;
+	margin-top:15px;
+	
+}
+.user-icon{
+	font-size:25px;color:#808080;
+	margin-top:15px;
+	
+}
+
+.bell-icon {
+	font-size:25px;color:#808080;
+	margin-top:295px;
+	
+}
+.arrow-icon{
+	font-size:25px;color:#808080;
+	margin-top:11px;
+	
+}
+
+.profile{
+	display: flex;
+	margin-top:5%;
+	margin-left:10%;
+	margin-right:5%;
+	
+	
+	
+}
+.imag{
+	height:54px;
+	width:54px;
+	margin-right:5px;
+}
+.imag img {
+            height: 100%; 
+            width: 100%; 
+            border-radius: 50%; /* Optional: Add rounded corners */
+        }
+.today{
+	margin-top:5%;
+	margin-left:10%;
+	margin-right:5%;
+	
+}		
+.todaybalance{
+	margin-top:2px;
+}	
+.styled-button {
+	margin-top:-10px;
+    width: 100px;
+    height: 30px;
+    background-color: #8003b0;
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.styled-button:hover {
+    background-color: #2980b9;
+}
+.transaction{
+	margin-top:3%;
+	margin-left:10%;
+	margin-right:30%;
+
+}
+.trans-head{
+	padding-top:5px;
+	margin-top:5px;
+}
+.tansact-history{
+	margin-top:5px;
+	margin-bottom:2px;
+}
+/*----------------------3rd column---------*/
+.retir{
+	margin-left:10%;
+	margin-top:2%;
+	
+}
+.retire{
+	color:blue;
+	font-weight:bold;
+	font-family: sans serif;
+	
+}
+.today{
+	font-family: 'Arial',sans-serif;
+	
+}
+.container2{
+	margin-top:20px;
+    display: flex;
+	
+	margin-left:10%;
+	margin-right:5%;
+}
+
+.box {
+    flex: 1;
+    position: relative;
+   
+	margin-right:5%;
+}
+.box-size-text{
+	margin-bottom:7px;
+	margin-top:3px;
+	font-size:13px;
+}
+.underline {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 2px;
+    background-color: blue; /* Underline color */
+}
+.container3{
+	margin-top:20px;
+    margin-right:5%;
+	
+	margin-left:10%;
+	
+}
+.container4{
+	margin-top:20px;
+    margin-right:1%;
+	
+	margin-left:10%;
+	
+}
+.compare {
+	margin-top:6px;
+	margin-bottom:8px;
+	font-size: 12px;	
+}
+.box4{
+	margin-top:8px;
+	margin-bottom:6px;
+	
+}
+.circle{
+	margin-left:15px;
+	
+	display: flex; /* Use flexbox for horizontal arrangement */
+    justify-content: space-around; /* Space evenly between the divs */
+    align-items: center;
+}
+.square {
+      width: 60px; 
+      height: 60px; 
+      position: relative;
+      margin-top: -20px;
+      
+    }
+.chart-title {
+      margin-top:2px;
+      font-size: 11px;
+	  
+
+	  text-align:center;
+    }	
+    .chart-percentage {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+    }
+	/*----------------c5---------------*/
+.container5{
+	margin-top:6%;
+	  
+    margin-right:20%;
+
+	}
+.last{
+	background:#F2F2F2;
+	margin-bottom:3%;
+	border-radius:10px;
+}	
+.lastcol{
+	margin-left:20px;
+	background:#F2F2F2;
+	padding-top:10px;
+	padding-bottom:10px;
+}	
+.contribut{
+	margin-top:10px;
+}
+	
+.Emp{
+	display:flex;
+}	
+.EmpC {
+	margin-right:12%;
+	margin-top:3%;
+}
+.EmpIn {
+	margin-right:48%;
+	margin-top:5%;
+}
+.update-btn{
+    margin-top:3%;
+    width: 90%;
+    height: 40px;
+    background-color: #8003b0;
+    color: #fff;
+    border: none;
+	margin-right:15px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.help{
+	margin-top:7%;
+	padding-bottom:7%;
+	color: #8003b0;
+	text-align:center;
+}
+.Housing{
+	padding-left:20px;
+	margin-top:5%;
+	
+	border-left:2px solid purple;
+}
+.limit{
+	margin-top:1%;
+	margin-bottom:4%;
+	font-size:14px;
+	color:#999999;
+}
+.More{
+	margin-top:4%;
+	color: #8003b0;
+	
+}
+//*--------------------progreess bar-----------*/
+
+   
+ .progress-container {
+      display: flex;
+      align-items: center;
+
+      position: relative;
+	  	  border:1px solid red;
+    }
+
+  
+    .inner-bar {
+      height: 100%;
+      background-color: #4CAF50;
+      border-radius: 15px;
+      transition: width 0.3s ease;
+    }
+
+    .percentage {
+      
+      color: #333;
+	  text-align:center;
+	  width:35px;
+	  
+	  margin-left:6px;
+	  padding-top:18px;
+    }
+	
+.bar1{
+		 
+		 display:flex;
+		 margin-top: -5px;
+	}
+    input[type="range"] {
+      width: 80%;
+      margin-top: 20px;
+    }
+
+.genderr, .salaryy ,.Agg {
+	background:#FFFFFF;
+	border:none;
+}
+ /*-----------------Responsive-------------------------*/
+@media(min-width:1201px) and (min-width:1401px){
+
+.trans-XX{
+	 font-size:11px;
+}
+}
+
+@media(min-width:1129px) and (max-width:1200px){
+.Emp p{
+	 font-size:13px;
+}
+.limit{
+	font-size:12px;
+}
+.box4 label{
+	font-size:12px;
+}
+.trans-XX{
+	 font-size:11px;
+}
+}	
+@media(min-width:929px) and (max-width:1128px){
+	.container {
+    width: 100%;
+	background:#CBD6E2;
+	padding-right:4px;
+	padding-left:10px;
+	padding-bottom:10px;
+    box-sizing: border-box;
+	
+}
+
+	
+.Emp p{
+	 font-size:10px;
+}
+.limit{
+	font-size:12px;
+}
+.box4 label{
+	font-size:10px;
+}
+.trans-XX{
+	 font-size:10px;
+}
+.genderr, .salaryy ,.Agg option{
+	background:#FFFFFF;
+	border:none;
+	font-size:10px;
+}
+.lastcol p{
+	padding:0.5px;
+	font-size:11px;
+}
+.limit{
+	font-size:11px;
+}
+.lastcol h3{
+	font-size:14px;
+}
+.Housing p{
+	padding:4px;
+	font-size:11px;
+}
+.consid{
+	font-size:14px;
+}
+	
+.retir{
+	font-size:15px;
+	}
+
+.container3 {
+	margin-top:10px;
+    margin-right:3%;
+	
+	margin-left:5%;
+	
+}
+.name h2{
+	font-size:18px;
+}
+.container5{
+	margin-top:6%;
+	  
+    margin-right:6%;
+
+	}
+}
+@media(min-width:601px) and (max-width:928px){
+	.container2{
+	margin-top:20px;
+    display: flex;
+	
+	margin-left:2%;
+	margin-right:2%;
+}
+.container3 {
+	margin-top:10px;
+    margin-right:2%;
+	
+	margin-left:2%;
+	
+}
+.container4{
+	margin-top:20px;
+    margin-right:2%;
+	
+	margin-left:2%;
+	
+}
+	.container5{
+	margin-top:6%;
+	  
+    margin-right:5%;
+
+	}
+	.Emp p{
+	 font-size:8px;
+}
+.limit{
+	font-size:5px;
+}
+.box4 label{
+	font-size:9px;
+}
+.trans-XX{
+	 font-size:10px;
+}
+.genderr, .salaryy ,.Agg option{
+	background:#FFFFFF;
+	border:none;
+	font-size:9px;
+}
+.lastcol p{
+	padding:0.5px;
+	font-size:11px;
+}
+.limit{
+	font-size:11px;
+}
+.lastcol h3{
+	font-size:12px;
+}
+.Housing p{
+	padding:6px;
+	font-size:11px;
+}
+.Housing h4{
+	padding:4px;
+	font-size:12px;
+}
+.consid{
+	font-size:14px;
+}
+.retir{
+	margin-top:8px;margin-bottom:8px;
+	font-size:13px;
+	
+	margin-left:3px;
+	padding-bottom:5px;
+	}
+.box h3{
+	font-size:15px;
+}
+
+.name h2{
+	font-size:17px;
+}	
+.name p{
+	font-size:12px;
+}	
+.todaybalance{
+	margin-top:4px;
+	font-size:16px;
+}	
+	.imag{
+	height:44px;
+	width:44px;
+	margin-right:5px;
+}
+.imag img {
+            height: 100%; 
+            width: 100%; 
+            border-radius: 50%; /* Optional: Add rounded corners */
+        }
+	
+.home-icon{
+	font-size:18px;color:white;
+	margin-top:15px;
+	margin-left:6px;margin-right:6px;
+	padding:4px;
+	
+	border-radius:4px;
+	background-color: #8003b0;
+}	
+		
+}
+

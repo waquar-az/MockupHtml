@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waquar</title>
+    <link rel='stylesheet' href='style.css'>
+	
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+	   integrity='sha512-XYZ' crossorigin='anonymous' />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	   <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"> </script> 
+       <script src= "https://cdn.jsdelivr.net/npm/chart.js@4.0.1/dist/chart.umd.min.js"></script> 
+      <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="column" style="width: 5%;">
+		
+		      <div class="imagg">
+					<img src="images/butterfly.jpg" alt="Project 3">
+				</div>
+		      
+			  <div class='searh-icon icon'>		
+				<i class="fa fa-search"></i>
+			  </div>
+			  <div class='home-icon icon'>					
+				<i class="fa fa-home"></i>
+			  </div>
+			  <div class='list-icon icon'>		
+				<i class="fa fa-list"></i>
+			  </div>
+			  <div class='news-icon icon'>		
+				<i class="fas fa-thin fa-newspaper"></i>
+			  </div>
+			  
+			  
+			  <div class='user-icon icon'>		
+				<i class="far fa-user"></i>
+			  </div>
+			  <div class='bell-icon icon'>		
+				<i class="far fa-bell"></i>
+			  </div>
+			  <div class='arrow-icon icon'>
+                <i class="fa fa-arrow-right"></i>			  
+				
+				
+			  </div>
+			
+		</div>
+		
+		<!----------------------2nd colm----Bio data------------------------>
+        <div class="column second" style="width: 30%;">
+			  <div class='profile'>
+					<div class="imag">
+						<img src="images/man.jpg" alt="Project 3">
+					</div>
+					<div class="name" style="width: 55%;margin-left:11px;">
+						 <h2>Hi Waquar,</h2>
+						 <p>welcome back.</p>
+					</div>					
+			  </div>
+			  <div class='today'>
+			        <h3>Today</h3>
+					
+					<h2 class='todaybalance'>$19,892</h2>
+					<p class='limit'>Account Balance</p>
+					
+                    <h4 class='todaybalance'>$4,000</h4>
+					<p class='limit'>Year-to-Date Contributions</p>
+					
+					<h4 class='todaybalance'>$1,892</h4>
+					<p class='limit'>Total Interest</p><br>
+                   
+				   <div class="dropdown">
+		            <button class="styled-button">I want to</button>	
+                      
+                    </div>					  
+			  </div>
+			  <div class='transaction'>
+			        <h4 class='trans-head'>Recent Transactions</h4><br>
+					
+					<p class='tansact-history limit'>2022-08-07</p>
+					<h5 class='trans-XX'>Withdrawal Transfer to Bank-XXX11</h5><br>
+					<hr>
+					<p class='tansact-history limit'>2022-07-21</p>
+					<h5 class='trans-XX'>Withdrawal Transfer to Bank-XXX11</h5><br>
+					<hr>
+                    <p class='tansact-history limit'>2022-07-16</p>
+					<h5 class='trans-XX'>Withdrawal Transfer to Bank-XXX11</h5><br>
+					<hr>
+										
+			  </div>
+			  
+			  
+		</div>
+		<!-------------------------3rd--column-------------------->
+        <div class="column" style="width: 45%;">
+			  <div class='retir'>
+			    <p class='retire'>Retirement Income</p>
+			    <h2>Starting Year 2056</h2>
+			  </div>
+			  
+			  <div class="container2">
+					<div class="box">
+					     <h3>$300,000</h3>
+						<p class='box-size-text limit'>My Goal</p>
+						<div class="underline"></div>
+					</div>
+					<div class="box">
+					    <h3>59% </h3>
+						<p class='box-size-text limit'>Goal Achieved</p>
+						<div class="underline"></div>
+					</div>
+					<div class="box">
+					    <h3>$300</h3>
+						<p class='box-size-text limit'>Est. Monthly Income</p>
+						<div class="underline"></div>
+					</div>
+			 </div>
+			 <!-----------------------graph-------------------->
+			 <div class="container3 graphh">
+			        <h5>Contributions Overtime</h5>
+					<div> 
+                       <canvas id="stackedChartID"></canvas> 
+                    </div> 
+					
+			 </div>
+			 <!------------How do I campare-------------------->
+			 <div class="container4">
+			        <h4>How do I compare to my peers?</h4>
+					<p class="compare limit">These numbers represent current goal achievement</p>
+					<div class='row'> 
+					     <div  style="width: 40%;">
+					    
+						  <p class='box4'> 
+						  <label for="number">Age: Under</label>
+							<select class='Agg' id="Agg" name="Agg">
+						        <option value="30">30</option>
+								<option value="29">29</option>
+								<option value="28">28</option>
+								<option value="27">27</option>
+								<option value="26">26</option>
+								<option value="25">25</option>
+								<option value="24">24</option>
+							</select>
+						  </p>
+						  <hr>
+						  
+						  
+						   <p class='box4'>
+						   <label for="salary">Salary : K20-K</label>
+						   <select class='salaryy' id="salary" name="salary">
+						        <option value="30">30</option>
+								<option value="29">29</option>
+								<option value="28">28</option>
+								<option value="27">27</option>
+								<option value="26">26</option>
+								<option value="25">25</option>
+								<option value="24">24</option>
+							  </select>
+							</p>
+						  <hr>
+						  
+						  <p class='box4'>
+						  
+						     <label for="gender">Select Gender<b>:</b></label>
+							  <select class='genderr' id="gender" name="gender">
+								<option value="male">Male</option>
+								<option value="female">Female</option>
+							  </select>
+							  
+						  </p>
+
+						
+					    </div>
+						<div  class='circle' style="width: 58%;">
+							
+							  <div class="square">
+							        
+									<canvas id="chart1"></canvas>
+									<div class="chart-percentage">78%</div>
+									<p class="chart-title">Average</p>
+							  </div>
+							  <div class="square">
+										<canvas id="chart2"></canvas>
+										<div class="chart-percentage">95%</div>
+										<p class="chart-title">Top</p>
+							  </div>
+							  <div class="square">
+									<canvas id="chart3"></canvas>
+									<div class="chart-percentage">59%</div>
+									<p class="chart-title">Me</p>
+							  </div>
+		
+						</div>
+                       
+                    </div> 
+					
+			 </div>
+			 
+		
+		</div>
+		
+        <div class="column" style="width: 25%;">
+				<div class='container5'>
+					  <div class='last'>
+								<div class='lastcol'>
+									<h3>Retirement Strategy</h3>
+									<p class='contribut'>Employee Contribution</p>
+									 <div class="progress-container bar">
+										  <div class="progress-bar" id="progressBar"></div>
+										  
+										  <div class='bar1'>
+											<input type="range" min="0" max="24" value="0" id="slider" oninput="updateProgressBar()">
+											
+											<div class="percentage" id="percentage">0%</div>									 
+										  </div>
+									 </div><br>
+									<p>Retirement Age</p>
+									<div class="progress-container bar">
+										  <div class="progress-bar" id="progressBar2"></div>
+										  
+										  <div class='bar1'>
+											<input type="range" min="0" max="24" value="0" id="slider" oninput="updateProgressBar2()">
+											
+											<div class="percentage" id="percentage">65</div>									 
+										  </div>
+									 </div><br>
+									
+									<hr>
+									<div class='Emp'>
+										<div class='EmpC'>
+										 <p class='em1'>Employer Contribution</p>
+										</div>
+										<div>
+										 <p><b>8.4%</b></p>
+										</div>
+									</div>
+									<div class='Emp'>
+										<div class='EmpIn'>
+										 <p class='em1'>Interest Rate</p>
+										</div>
+										<div>
+										 <p><b>5%</b></p>
+										</div>
+									</div>
+									<button class="update-btn">Update</button>
+									<p class='help'> View Help Docs > </p>
+								</div>
+					  </div>
+                      <div class='Housing'> 
+						  <p class='consid'>Are you considering a</p>
+						  <h4>Housing Advance</h4>
+						  <p class='limit'>Limited time reduced intersest.</p>
+						  <p class='More'> Learn More > </p>
+					 </div>
+				</div>
+		</div>
+    </div>
+</div>
+ 
+
+
+</body>
+
+</html>
